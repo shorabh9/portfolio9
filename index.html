@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+        <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9749481888.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                 <img src="images/logo.png" class="logo">
+                  <ul id="sidemenu"><i class="fa-solid fa-xmark" id="cross" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                  </ul> 
+                  <i class="fa-solid fa-bars" onclick="openmenu()" id="menu"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer,Compitative Programer</p>
+                    <h1>Hi,I'm <span>Shorabh</span><br>Singh From India</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -----------about---------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="usercopy.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi! My name is Shorabh.I am a Computer Engineering undergraduate from Army Institute of Technology,Pune and a technology enthusiast.</p>
+                        
+                        <p>I have completed one online intership at Army as web developer during my second year.</p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+ 
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li class="class1"><span>Web Development</span><br>Websites Development</li>
+                        <br>
+                        <li class="class1"><span>Compitative Programing</span><br>Five Star on HackerRank and maintain above 1200 rating on CodeForces</li>
+                        <br>
+                        <li class="class1"><span>App Development</span><br>Gaming Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li class="class1"><span>2024- Current</span><br>Online Intershipt at Inter at Army</li>
+                        <br>
+                        <!-- <li class="class1"><span>2019 - 2021</span><br>Team lead at StartApp LLC.</li>
+                        <br>
+                        <li class="class1"><span>2016-2017</span><br>Intershipt at ekart eCommerce.</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li class="class1"><span>2022-Current</span><br>Pursuing Computer Engineering from ARMY INSTITUTE OF TECHNOLOGY,PUNE.</li>
+                        <br>
+                        <li class="class1"><span>2021</span><br>Intermediate from MATRIX HIGH SCHOOL,SIKAR,RAJASTHAN.</li>
+                        <br>
+                    <li class="class1"><span>2019<br></span>Matriculation from DELHI PUBLIC SCHOOL,ALWAR,RAJASTHAN.</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+<!-- ------------------------services-------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I got sertificate from freeCodeCamp of JAVASCRIPT and CSS/HTML.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>Compitative Programing</h2>
+                <p>I got second position in Coding round compition organisied by PCCOE College during my first year.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Tik Tak Toe gaming app and Quies app Design by me during my second year .</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------portfolio-------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Social Media Website</h3>
+                <p>The Website connects you to the talented people around the world.Acsess it from any browser.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music website</h3>
+                <p>The Website connects you to the talented people around the world.Access it from any browser.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Online Shopping website</h3>
+                <p>The Website connects you to the talented people around the world.Access it from any browser.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See more</a> 
+    </div>
+</div>
+<!-- ------------------------contact------------------------------ -->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> shorabhsingh5999@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+916350681882</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61556134555348&sfnsn=wiwspwa&mibextid=RUbZ1f"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/Shorabhsingh599?t=g5v5rBBkI70E5qbRvlSH7g&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com/shorabh.singh01?igsh=MXE5YWVnanhjeTNiYQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shorabh-singh-333745253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Shorabh. Made with by  <i class="fa-solid fa-heart"></i>  simply use of HTML,CSS,JAVASCRIPT.</p>
+    </div>
+</div>
+</div>
+        <script>
+            var tablinks= document.getElementsByClassName("tab-links");
+            var tabcontent= document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                if(tabname=='experience'){
+                    tablinks[0].classList.remove("active-link");
+                    tablinks[1].classList.add("active-link");
+                    tablinks[2].classList.remove("active-link");
+
+                    tabcontent[0].classList.remove("active-tab");
+                    tabcontent[1].classList.add("active-tab");
+                    tabcontent[2].classList.remove("active-tab");
+                }
+                if(tabname=='education'){
+                    tablinks[0].classList.remove("active-link");
+                    tablinks[1].classList.remove("active-link");
+                    tablinks[2].classList.add("active-link");
+
+                    tabcontent[0].classList.remove("active-tab");
+                    tabcontent[1].classList.remove("active-tab");
+                    tabcontent[2].classList.add("active-tab");
+                }
+                if(tabname=='skills'){
+                    tablinks[0].classList.add("active-link");
+                    tablinks[1].classList.remove("active-link");
+                    tablinks[2].classList.remove("active-link");
+
+                    tabcontent[0].classList.add("active-tab");
+                    tabcontent[1].classList.remove("active-tab");
+                    tabcontent[2].classList.remove("active-tab");
+                }
+            }
+    
+            
+        </script>
+        <script>
+            var sidemeu =document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzmRQG5EP1zlpAGneG0uZkmJ_lhaFQIuefYY8jgJxUL5baP1jRQlJP_BD6kkEd0ESZu2A/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Submitted Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    
+    </body>
+</html>
